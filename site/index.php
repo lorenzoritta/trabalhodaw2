@@ -30,7 +30,7 @@ $categoria = $objcategoriaDAO->listar();
 <ul>
     <?php
     foreach ($categoria as $linha) {
-        echo "<li><a href = 'listar.php?id = " .
+        echo "<li><a href = 'listar.php?id=" .
             $linha["id_categoria"] . "'>" . $linha["nome"] . "</a></li>";
     }
     ?>
@@ -60,9 +60,3 @@ foreach ($retorno as $linha) {
         </a>
     </div>
 <?php } ?>
-<div>
-    <h3>Nome</h3>
-    <h4>preco</h4>
-    <h5>categoria</h5>
-    <img src="" alt="">
-</div>
