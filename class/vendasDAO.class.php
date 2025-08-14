@@ -2,7 +2,7 @@
 
 include_once "vendas.class.php";
 
-class VendaDAO
+class VendasDAO
 {
     private $conexao;
 
